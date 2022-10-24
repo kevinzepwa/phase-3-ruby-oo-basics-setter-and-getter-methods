@@ -1,9 +1,15 @@
 class Person
-    attr_reader :name
-    attr_writer :name
-    attr_writer :job
-    attr_reader :job
+    attr_accessor :name
+    attr_accessor :job
 end
+
+# class Person
+#     attr_reader :name
+#     attr_writer :name
+#     attr_writer :job
+#     attr_reader :job
+# end 
+
 
 # class Person
 #     #setter
